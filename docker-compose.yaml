@@ -6,7 +6,7 @@ services:
       - "5000:5000"
     environment:
       - NODE_ENV=production
-      - DATABASE_URL=postgres://postgres:30bIJIIcZ6wGfuz6c8NAvukdd3SUtKLgGV0bcHigih078YIZgzubLKrzBsVy5WWV@oc4os4k40s08cw4ksc48s4ow:5432/postgres
+      - DATABASE_URL=postgres://postgres:PPlF4OE431TUMffG3QaCZ8zNFzjQRHoBcXu2od3oea8ZXD5bm0akqbrQmOkvATk2@io8wswgok8osw0kgw8wcso4s:5432/postgres
       - LINE_CHANNEL_ID=${LINE_CHANNEL_ID}
       - LINE_CHANNEL_SECRET=${LINE_CHANNEL_SECRET}
     depends_on:
