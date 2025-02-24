@@ -6,7 +6,7 @@ services:
       - "5000:5000"
     environment:
       - NODE_ENV=production
-      - DATABASE_URL=postgresql://postgres:postgres@db:5432/bakerydb
+      - DATABASE_URL=postgres://postgres:30bIJIIcZ6wGfuz6c8NAvukdd3SUtKLgGV0bcHigih078YIZgzubLKrzBsVy5WWV@oc4os4k40s08cw4ksc48s4ow:5432/postgres
       - LINE_CHANNEL_ID=${LINE_CHANNEL_ID}
       - LINE_CHANNEL_SECRET=${LINE_CHANNEL_SECRET}
     depends_on:
